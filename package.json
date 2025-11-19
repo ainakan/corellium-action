@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frida/corellium-action.git"
+    "url": "git+https://github.com/ainakan/corellium-action.git"
   },
   "keywords": [
     "GitHub",
     "Actions",
     "JavaScript"
   ],
-  "author": "Ole André Vadla Ravnås <oleavr@frida.re>",
+  "author": "Ole André Vadla Ravnås <oleavr@ainakan.re>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frida/corellium-action/issues"
+    "url": "https://github.com/ainakan/corellium-action/issues"
   },
-  "homepage": "https://github.com/frida/corellium-action#readme",
+  "homepage": "https://github.com/ainakan/corellium-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.5",
     "node-fetch": "^3.2.2",

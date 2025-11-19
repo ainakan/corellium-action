@@ -6,14 +6,14 @@ This uploads and executes code on a Corellium instance.
 
 ```yaml
 steps:
-- uses: frida/corellium-action@v4
+- uses: ainakan/corellium-action@v4
 - with:
     token: ${{ secrets.GITHUB_TOKEN }}
-    gateway: corellium.frida.re
+    gateway: corellium.ainakan.re
     device: android-arm64
     upload: runner.tar.gz
     run: |
-      cd /data/local/tmp
+      cd /data/android/ainakan
       tar xf $ASSET_PATH
       ./gum-tests
 ```
